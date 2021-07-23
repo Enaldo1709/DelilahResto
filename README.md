@@ -1,2 +1,2 @@
 # Delilah Restó
-Es una API que te permite realizar pedidos a domicilio de deliciosas comidas.
+API para pedidos de comida deliciosa. Como cliente, podrás registrarte, ver el listado de nuestros productos y realizar una orden. Los administradores del restaurante tienen la posibilidad de recibir pedidos y actualizaciones.
