@@ -1,0 +1,31 @@
+{
+  "name": "delilahresto",
+  "version": "1.0.0",
+  "description": "API para pedidos de comida deliciosa. Como cliente, podrás registrarte, ver el listado de nuestros productos y realizar una orden. Los administradores del restaurante tienen la posibilidad de recibir pedidos y actualizaciones.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enaldo1709/DelilahResto.git"
+  },
+  "keywords": [
+    "restaurant",
+    "food",
+    "lounch",
+    "delivery",
+    "API"
+  ],
+  "author": "enaldo1709",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enaldo1709/DelilahResto/issues"
+  },
+  "homepage": "https://github.com/Enaldo1709/DelilahResto#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
