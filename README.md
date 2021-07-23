@@ -16,37 +16,37 @@ Una vez satisfechos todos los prerrequisitos, puedes comenzar con la instalació
 - Primero clona el repositorio ejecutando el siguiente comando en la consola o terminal de tu preferencia:
 
     ```bash
-    $ git clone https://github.com/Enaldo1709/DelilahResto.git
+    git clone https://github.com/Enaldo1709/DelilahResto.git
     ```
 
 - Luego instala las dependencias necesarias para la ejecución del proyecto, para ello ejecuta el siguiente comando:
     ```bash
-    $ cd DelilahResto/
-    $ npm install
+    cd DelilahResto/
+    npm install
     ```
 
 - Una vez instaladas las dependencias, es momento de preparar la base de datos, para ello ejecuta los siguientes comandos:
     - Primero creamos la base de datos:
     ```bash
-    $ mysql -u <username> -p
+    mysql -u <username> -p
     ```
 
     - Dentro de mysql shell ejecutamos:
     ```SQL
-    mysql> CREATE DATABASE delilahresto;
-    mysql> exit;
+    CREATE DATABASE delilahresto;
+    exit;
     ```
 
     - Luego desde la consola ejecutamos:
     ```bash
-    $ mysql -u <username> -p delilahresto < delilahresto.sql
+    mysql -u <username> -p delilahresto < delilahresto.sql
     ```
 
     Listo ya estará creada la base de datos con la estructura seleccionada.
 
 Ejecuta el siguiente comando para iniciar el proyecto:
 ```bash
-$ npm start
+npm start
 ```
 
 ## **Construido con**
